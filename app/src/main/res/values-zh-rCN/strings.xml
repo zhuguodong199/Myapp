@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FirstApp</string>
-    <string name="str">你好</string>
-    <string name="btn">登录</string>
+    <string name="app_name">程序1</string>
+    <string name="str">生日快乐</string>
+    <string name="from">夏洛蒂</string>
 </resources>

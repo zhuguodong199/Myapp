@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">FirstApp</string>
-    <string name="str">Hello</string>
-    <string name="btn">Login</string>
-    <string name="btn">Login</string>
+    <string name="str">Happy Birthday!</string>
+    <string name="from">Your Charlotte</string>
 </resources>
