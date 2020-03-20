@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">程序1</string>
-    <string name="str">生日快乐</string>
+    <string name="hello">生日快乐</string>
     <string name="from">夏洛蒂</string>
+    <string name="btn_label">按钮</string>
+    <string name="hit_txt">请输入您的姓名</string>
+    <string name="lable_add1">加1分</string>
+    <string name="lable_add2">加2分</string>
+    <string name="lable_add3">加3分</string>
+    <string name="btn_reset_label">重置</string>
 </resources>
