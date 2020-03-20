@@ -9,8 +9,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity  {
-    TextView out; //TextView控件 类变量
-    EditText inp;//Edittext控件
+    TextView out; //TextView控件 类变量 显示区
+    EditText inp;//Edittext控件 输入区
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity  {
     //    out.setText("Hello"  + str);
 
   //  }
-    public void btnClick(View btn){//使用配置文件（最简便的方法，不用使用监听器）
+    public void btnClick(View btn){//对按钮使用配置文件（最简便的方法，不用使用监听器）
         Log.i("click", "btnClick called.....");
-        String str = inp.getText().toString();
-        out.setText("Hello"+" "+str);
+        String str = inp.getText().toString();//调取用户输入的内容并转换为字符串
+        out.setText("Hello"+" "+str);//输出hello+用户输入的内容
     }
 }

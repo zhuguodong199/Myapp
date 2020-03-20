@@ -9,4 +9,7 @@
     <string name="lable_add2">加2分</string>
     <string name="lable_add3">加3分</string>
     <string name="btn_reset_label">重置</string>
+    <string name="hint_temp">请输入摄氏度</string>
+    <string name="lable_tempconver">转换为华氏温度</string>
+    <string name="temper">结果为:</string>
 </resources>

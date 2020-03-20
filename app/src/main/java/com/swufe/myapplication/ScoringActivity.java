@@ -26,14 +26,14 @@ public class ScoringActivity extends AppCompatActivity {
         showScore(3);
     }
     public void btnReset(View btn){
-        score.setText("0");
+        score.setText("0");//Reset键执行此方法
     }
 
     private void showScore(int inc){
-        Log.i("show","inc="+inc);
+        Log.i("show","inc="+inc);//用于在Logcat中输出日志
         String oldScore = (String)score.getText();
         int newScore = Integer.parseInt(oldScore) + inc;
-        score.setText(""+ newScore);
+        score.setText(""+ newScore);//but123执行此方法（“”+newScore是将整数转换为字符串）
 
 
     }

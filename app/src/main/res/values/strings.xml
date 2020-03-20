@@ -8,5 +8,7 @@
     <string name="lable_add2">+2point</string>
     <string name="lable_add3">+3point</string>
     <string name="btn_reset_label">Reset</string>
-
+    <string name="hint_temp">input degree centigrade</string>
+    <string name="lable_tempconver">conver to Fahrenheit</string>
+    <string name="temper">tempOutcome:</string>
 </resources>
