@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">程序1</string>
+    <string name="app_name">你好</string>
     <string name="hello">生日快乐</string>
     <string name="from">夏洛蒂</string>
     <string name="btn_label">按钮</string>
@@ -12,4 +12,9 @@
     <string name="hint_temp">请输入摄氏度</string>
     <string name="lable_tempconver">转换为华氏温度</string>
     <string name="temper">结果为:</string>
+    <string name="btn_dollar_label">美元</string>
+    <string name="rmb_hint">请输入人民币</string>
+    <string name="btn_euro_label">欧元</string>
+    <string name="btn_won_label">韩元</string>
+
 </resources>
