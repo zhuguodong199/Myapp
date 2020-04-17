@@ -4,7 +4,7 @@
     <string name="hello">生日快乐</string>
     <string name="from">夏洛蒂</string>
     <string name="btn_label">按钮</string>
-    <string name="hit_txt">请输入您的姓名</string>
+    <string name="hit_txt">请输入人民币</string>
     <string name="lable_add1">加1分</string>
     <string name="lable_add2">加2分</string>
     <string name="lable_add3">加3分</string>
@@ -16,5 +16,7 @@
     <string name="rmb_hint">请输入人民币</string>
     <string name="btn_euro_label">欧元</string>
     <string name="btn_won_label">韩元</string>
+    <string name="btn_opencfg_label">配置</string>
+    <string name="btn_save_label">保存</string>
 
 </resources>
