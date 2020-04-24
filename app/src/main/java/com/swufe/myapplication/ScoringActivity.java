@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ScoringActivity extends AppCompatActivity {
+
+
     TextView score;//获取分数控件
     TextView score2;
     @Override
@@ -34,7 +36,7 @@ public class ScoringActivity extends AppCompatActivity {
         }
     }
     public void btnAdd3(View btn){
-        if(btn.getId()==R.id.btn_3){
+        if(btn.getId()== com.swufe.myapplication.R.id.btn_3){
             showScore(3);
         }else{
             showScore2(3);

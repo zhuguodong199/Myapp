@@ -1,23 +1,24 @@
 package com.swufe.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity  {
+
     TextView out; //TextView控件 类变量 显示区
     EditText inp;//Edittext控件 输入区
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.swufe.myapplication.R.layout.activity_main);
 
-       out = findViewById(R.id.showText);//控件获取的初始化
-       inp = findViewById(R.id.inpText);
+       out = findViewById(com.swufe.myapplication.R.id.showText);//控件获取的初始化
+       inp = findViewById(com.swufe.myapplication.R.id.inpText);
 
        //Button btn = findViewById(R.id.btn1);
        //btn.setOnClickListener(this);//当前类监听

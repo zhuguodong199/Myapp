@@ -1,14 +1,15 @@
 package com.swufe.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class TemperatureActivity extends AppCompatActivity {
+
     TextView out; // 类变量
     EditText inp;
     @Override
